@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CSIS</string>
+    <string name="mission_title">Mission:</string>
+    <string name="courses_title">CS/IS Common Courses:</string>
+    <string name="differences_title">Differences between CS and CIS:</string>
+    <string name="faculty_btn">Faculty</string>
+    <string name="course_btn">Course Grid</string>
+
+    <string name="mission_content">The mission of the Department of Computer Science and Information Systems at SVSU is to provide an outstanding education to its students in accordance with the guidelines of the SVSU mission, to advance scholarship in the key domains of the computing and information systems sciences, and to engage in activities that improve the welfare of society and enhance the reputation of SVSU.</string>
+    <string name="courses_content">The courses that both CS and CIS students must complete are as follows:\n \nCS 105, CS 116, CS 146, CS 216, CS 245, CIS 255, CIS 311, CIS 355, COM 105, MATH 103, PHIL 205A, RPW 304</string>
+    <string name="difference_content">Computer Information Systems tends to be more application oriented than Computer Science and geared toward application development with some business emphasis.
+                                        \nComputer Science is more geared toward concepts of computer science and algorithim construction and analysis</string>
+
+    <string name="faculty1_bio">Il-Hyung Cho is an associate professor and chair of the Department of Computer Science at Saginaw Valley State University, Michigan, where he has been since 2003. During 2010-2011 he was a Visiting Professor of Bioinformatics lab at Washington State University. He received a B.E. in Electronic and Computer Engineering from Yonsei University in 1987, and an M.S. in Computer Science from Bowling Green State University.
+        He received his Ph.D. in Computer Science from Clemson University in 2000. He worked at Iona Technologies in Boston as a software engineer in 2000-2001, and at Clemson University as visiting lecturer in 2001-2003.
+        \nHis research interests center on object oriented system design, distributed object systems, software engineering, bioinfomatics tools development, and computer security and forensics. He helped the construction of genome database for Rosaceae Crop (www.rosaceae.org/). He has given many talks in professional conferences and SET colloquium, most recently at Oxford University (UK) on the topic of Business Innovation with User Knowledge and IT Technologies.</string>
+</resources>
