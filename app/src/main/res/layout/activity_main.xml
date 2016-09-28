@@ -9,57 +9,68 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.whitfield.nathan.csis.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/mission_title"
-        android:textAllCaps="true"
-        android:textColor="@color/colorPrimaryDark"
-        android:id="@+id/mission_title"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/faculty_btn">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/mission_title"
-        android:textColor="@color/colorBlack"
-        android:text="@string/mission_content"
-        android:id="@+id/mission_text"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:layout_below="@+id/mission_text"
-        android:text="@string/courses_title"
-        android:textAllCaps="true"
-        android:textColor="@color/colorPrimaryDark"
-        android:id="@+id/courses_title"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mission_title"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/mission_title"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/courses_title"
-        android:textColor="@color/colorBlack"
-        android:text="@string/courses_content"
-        android:id="@+id/course_text"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mission_title"
+            android:textColor="@color/colorBlack"
+            android:text="@string/mission_content"
+            android:id="@+id/mission_text"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:layout_below="@+id/course_text"
-        android:text="@string/differences_title"
-        android:textAllCaps="true"
-        android:textColor="@color/colorPrimaryDark"
-        android:id="@+id/differences_title"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/mission_text"
+            android:text="@string/courses_title"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/courses_title"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/differences_title"
-        android:textColor="@color/colorBlack"
-        android:text="@string/difference_content"
-        android:id="@+id/difference_text"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/courses_title"
+            android:textColor="@color/colorBlack"
+            android:text="@string/courses_content"
+            android:id="@+id/course_text"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/course_text"
+            android:text="@string/differences_title"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/differences_title"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/differences_title"
+            android:textColor="@color/colorBlack"
+            android:text="@string/difference_content"
+            android:id="@+id/difference_text"/>
+        </RelativeLayout>
+    </ScrollView>
 
     <Button
         android:layout_width="wrap_content"
@@ -69,16 +80,15 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:onClick="onClickFacultyBtn()"/>
+        android:onClick="onClickFacultyBtn"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/course_btn"
         android:id="@+id/course_btn"
-        android:layout_alignTop="@+id/faculty_btn"
+        android:layout_alignBottom="@+id/faculty_btn"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
-
-
+        android:layout_alignParentEnd="true"
+        android:onClick="onClickCourseBtn"/>
 </RelativeLayout>
